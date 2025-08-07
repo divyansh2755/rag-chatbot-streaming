@@ -1,0 +1,9 @@
+# Required Python packages
+streamlit
+python-docx
+sentence-transformers
+chromadb
+requests
+transformers
+sentencepiece
+torch
