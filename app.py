@@ -24,7 +24,7 @@ if query:
     # Search top matching document chunks
     results = collection.query(
         query_embeddings=[query_embedding],
-        n_results=3
+        n_results=5
     )
 
     documents = results['documents'][0]
