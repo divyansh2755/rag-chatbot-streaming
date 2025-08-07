@@ -17,7 +17,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot built as part of 
 ## How It Works
 
 1. **Chunking**  
-   The document is split into overlapping chunks (~1000 characters) to preserve context.
+   The document is split into overlapping chunks (~200 characters) to preserve context.
 
 2. **Embedding + Vector Store**  
    Each chunk is embedded and stored in a persistent ChromaDB collection.
@@ -42,7 +42,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot built as part of 
 
 
 ### Video Demo  
-🎥 [Watch full demo]([media/chatbot-demo.mp4](https://github.com/user-attachments/assets/ed3b7d89-4aa0-4911-bced-5372ee039ebf))
+[media/chatbot-demo.mp4](https://github.com/user-attachments/assets/ed3b7d89-4aa0-4911-bced-5372ee039ebf)
 
 ---
 
